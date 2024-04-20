@@ -1,5 +1,8 @@
 package com.example.dependency;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class ColourPrinterImpl implements  ColourPrinter{
 
     private RedPrint redPrint;
